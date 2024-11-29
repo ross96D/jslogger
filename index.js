@@ -1,3 +1,4 @@
+import { MESSAGE } from "triple-beam";
 import winston from "winston";
 
 /**
@@ -18,7 +19,6 @@ export class Logger {
 	 */
 	constructor(logger) {
 		this.logger = logger;
-		this.info({ message: "sad", extra: ["sd", "sad"] });
 	}
 
 	#add_error(obj, error) {
