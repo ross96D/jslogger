@@ -540,7 +540,7 @@ export class CapitalizeLevel {
 			info &&
 			(typeof info.level === "string" || info.level instanceof String)
 		) {
-			info.level = info.leve.toUpperCase();
+			info.level = info.level.toUpperCase();
 		}
 		return info;
 	}
