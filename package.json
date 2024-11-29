@@ -1,0 +1,15 @@
+{
+  "name": "js_logger",
+  "version": "0.0.1",
+  "description": "Wrapper logger for winston",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "winston": "^3.17.0"
+  }
+}
