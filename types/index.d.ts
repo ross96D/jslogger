@@ -331,6 +331,21 @@ export class Logger {
     fatal({ message, error, extra, method, elapsed, ad: status, client_ip, path, response_size, type, }: RequestResponse): void;
     #private;
 }
+export class Timestamp {
+    /**
+     *
+     * @param {(s: string) => string} color
+     */
+    constructor(color: (s: string) => string);
+    color: (s: string) => string;
+    transform(info: any): any;
+}
+export class CustomFormat {
+    transform(info: any): any;
+}
+export class CapitalizeLevel {
+    transform(info: any): any;
+}
 export type WinstonLogger = import('winston').Logger;
 export type JsonObject = {
     [key: string]: string | number | boolean | JsonObject | JsonObject[];
