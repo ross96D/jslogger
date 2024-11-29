@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@xeraph-dev/colors": "^0.1.3",
+    "js_logger": "github:ross96D/jslogger#8721fa626a9c18bb3ad21fb64ffca0960860d562"
+  }
+}
