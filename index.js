@@ -6,7 +6,7 @@ import winston from "winston";
  * @typedef { { [key: string]: string | number | boolean | JsonObject | JsonObject[] } } JsonObject
  * @export @typedef { 'GET' | 'HEAD' | 'POST' | 'PUT' | 'DELETE' | 'CONNECT' | 'OPTIONS' | 'TRACE' | 'PATCH' } Method
  * @export @typedef { {message: string, extra?: JsonObject, error?: any} } Message
- * @export @typedef { Message & { method: Method, ad: number, client_ip: string, path: string, response_size: number, elapsed?: number, type: 'request' } } RequestResponse
+ * @export @typedef { Message & { method: Method, status: number, client_ip: string, path: string, response_size: number, elapsed?: number, type: 'request' } } RequestResponse
  */
 
 export class Logger {
