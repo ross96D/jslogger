@@ -511,7 +511,7 @@ export class Timestamp {
 	color;
 	/**
 	 *
-	 * @param {(s: string) => string} color
+	 * @param {(s: string) => string} [color]
 	 */
 	constructor(color) {
 		this.color = color;

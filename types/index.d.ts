@@ -334,9 +334,9 @@ export class Logger {
 export class Timestamp {
     /**
      *
-     * @param {(s: string) => string} color
+     * @param {(s: string) => string} [color]
      */
-    constructor(color: (s: string) => string);
+    constructor(color?: (s: string) => string);
     color: (s: string) => string;
     transform(info: any): any;
 }
